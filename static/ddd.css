@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    min-height: 100vh;
+    padding: 20px;
+
+    background-image: url("/static/zhao.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    gap: 20px;
+
+    color: white;
+    font-weight: bold;
+}
+
+/* 제목 부분 */
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(5px, 1vw, 15px);
+
+    width: 100%;
+}
+
+#logo h1 {
+    margin: 0;
+
+    font-size: clamp(22px, 4vw, 50px);
+    text-align: center;
+}
+
+#zhaoimg,
+#zhaoimg2 {
+    width: clamp(40px, 7vw, 80px);
+    height: clamp(40px, 7vw, 80px);
+
+    object-fit: contain;
+}
+
+/* 설명 */
+
+header h2 {
+    margin: 0;
+    font-size: clamp(16px, 2.5vw, 32px);
+    text-align: center;
+}
+
+/* 링크 */
+
+#link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+#link a {
+    font-size: clamp(14px, 1.8vw, 22px);
+    color: white;
+}
+
+/* 버튼 */
+
+#button {
+    display: inline-block;
+
+    background: #FFA4B4;
+    background-image: linear-gradient(to bottom, #FFA4B4, #FF8DA1);
+
+    border-radius: 28px;
+
+    font-family: Arial, sans-serif;
+    color: white;
+
+    font-size: clamp(14px, 1.8vw, 20px);
+
+    padding: 10px 20px;
+
+    border: none;
+    cursor: pointer;
+
+    transition: background 0.2s ease;
+}
+
+#button:hover {
+    background-image: linear-gradient(to bottom, #FF8DA1, #FF6B8B);
+}
+
+/* 리뷰 */
+
+#review {
+    display: none;
+    align-items: center;
+
+    gap: 10px;
+
+    background-color: white;
+
+    min-height: 100px;
+    padding: 10px 20px;
+
+    color: black;
+}
+
+#zhaoimg3 {
+    width: clamp(40px, 7vw, 80px);
+    height: clamp(40px, 7vw, 80px);
+
+    object-fit: contain;
+}

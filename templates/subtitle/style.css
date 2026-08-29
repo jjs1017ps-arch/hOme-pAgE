@@ -1,0 +1,16 @@
+.hero {
+    min-height: 160vh;
+
+    background-image: url("/static/space.png");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}

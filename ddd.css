@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;  /* 요소를 위아래로 배치 */
+    justify-content: center; /* 세로 기준 정중앙 */
+    align-items: center;     /* 가로 기준 정중앙 */
+    min-height: 100vh;       /* 화면 전체 높이 차지 (필수!) */
+    margin: 0;               /* 브라우저 기본 여백 제거 */
+    background-image: url("./zhao.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 20px;
+    color: white;
+    font-weight: bold;
+
+}
+
+#button {
+    display: inline-block; /* 패딩과 마진이 정상 작동하도록 설정 */
+    background: #FFA4B4;
+    background-image: linear-gradient(to bottom, #FFA4B4, #FF8DA1);
+
+    border-radius: 28px;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none; /* <button> 태그일 경우 기본 테두리 제거 */
+    cursor: pointer; /* 마우스 호버 시 손가락 모양 표시 */
+    transition: background 0.2s ease; /* 색상이 부드럽게 변하는 효과 */
+}
+
+#button:hover {
+    background: #3cb0fd;
+    background-image: linear-gradient(to bottom, #FF8DA1, #FF6B8B);
+
+    text-decoration: none;
+}
+#review {
+    display: none;
+    align-items: center;
+    gap: 10px;
+
+    background-color: white;
+    height: 100px;
+    padding: 0 20px;
+    color: black;
+}
+
+#logo, #review {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#zhaoimg, #zhaoimg2 {
+    width: 80px;
+    height: 80px;
+}

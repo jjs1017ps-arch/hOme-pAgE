@@ -1,0 +1,29 @@
+# Python and local tooling
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Editor and operating-system files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# User data and generated media
+photos/
+templates/mioai/chat_history/
+templates/mioai/logs/
+templates/subtitle/downloads/
+
+# Local MioAI configuration: contains service credentials and personal settings
+templates/mioai/conf.yaml
+templates/mioai/conf.yaml.backup
+
+# Downloaded AI models and runtime caches (too large for the repository)
+templates/mioai/models/
+templates/mioai/.venv/
+
+# Nested source-control metadata
+templates/mioai/frontend/.git/

@@ -1,4 +1,6 @@
-# Zhao's Personal Playground
+# ❤❤ Zhao's Homepage & Local AI Hub!❤❤
+# 🚀 My First Release v1.0.0
+
 
 개인 웹 허브와 로컬 AI 인터페이스를 하나의 FastAPI 애플리케이션으로 엮은 실험적 멀티미디어 프로젝트입니다. 사진 공유, 영상 자막 생성, 음악이 결합된 시계 페이지, 그리고 Live2D 기반 대화형 AI 캐릭터 **Mio**를 단일 진입점에서 제공합니다.
 

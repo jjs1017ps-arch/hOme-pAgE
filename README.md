@@ -68,7 +68,7 @@ Python · FastAPI · Flask · Uvicorn · Jinja2 · Open-LLM-VTuber · Live2D Cub
 The MioAI portion includes third-party components and Live2D assets. Review the included license files—especially `templates/mioai/LICENSE-Live2D.md`—before redistribution or commercial use.
 
 ### 저작권
-MIO.ai : openllmvtuber https://github.com/Open-LLM-VTuber/Open-LLM-VTuber\
+MIO.ai : openllmvtuber https://github.com/Open-LLM-VTuber/Open-LLM-VTuber
 
 character zzz zhao : https://zenless.hoyoverse.com/
 
